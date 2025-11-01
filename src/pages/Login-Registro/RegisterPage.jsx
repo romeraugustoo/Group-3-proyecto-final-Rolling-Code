@@ -82,7 +82,6 @@ function RegisterPage() {
               type='text'
               {...register("username", { required: true, minLength: 3 })}
               className='inputsR'
-              placeholder='Ej: John 10'
               id='username'
               maxLength={20}
             />
@@ -95,7 +94,6 @@ function RegisterPage() {
               type='email'
               {...register("email", { required: true })}
               className='inputsR'
-              placeholder='Ej: John@gmail.com'
               id='email'
               maxLength={60}
             />
@@ -110,7 +108,6 @@ function RegisterPage() {
                 type={showPassword ? "text" : "password"}
                 {...register("password", { required: true, minLength: 4 })}
                 className='inputsR'
-                placeholder='Contraseña'
                 id='password'
                 maxLength={30}
               />
@@ -133,7 +130,6 @@ function RegisterPage() {
                 type={showConfirmPassword ? "text" : "password"}
                 {...register("passwordConfirmation", { required: true })}
                 className='inputsR'
-                placeholder='Confirmar contraseña'
                 id='confirmPassword'
                 maxLength={30}
               />

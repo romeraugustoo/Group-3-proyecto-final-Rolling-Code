@@ -84,7 +84,6 @@ function LoginPage() {
                             type="email"
                             {...register("email", { required: true })}
                             className='inputs'
-                            placeholder='Ej: John@gmail.com'
                             id='email'
                             maxLength={60}
                             onChange={(event) => setEmail(event.target.value)}
@@ -100,7 +99,6 @@ function LoginPage() {
                                 type={showPassword ? "text" : "password"}
                                 {...register("password", { required: true, minLength: 4 })}
                                 className='inputs'
-                                placeholder='Contraseña'
                                 id='password'
                                 maxLength={30}
                             />
