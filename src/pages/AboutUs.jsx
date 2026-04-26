@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/about.css';
 import 'font-awesome/css/font-awesome.min.css';
-import ImagenPaulo from '../assets/images/profiles/messias.jpg';
+import ImagenPaulo from '../assets/images/profiles/Paulo.jpeg';
 import ImagenAugusto from '../assets/images/profiles/Augusto.jpeg';
 import ImagenNicolas from '../assets/images/profiles/Nico.jpeg';
 import ImagenSantiago from '../assets/images/profiles/Santiago.jpg';
